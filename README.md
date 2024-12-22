@@ -22,3 +22,53 @@ Utilizes a public text summarization dataset available on Kaggle: [Text Summariz
 - TensorFlow or PyTorch
 - Required libraries: `numpy`, `pandas`, `sklearn`, etc.
 
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/talharauf15/Transformer-LLM-Text-Summarization-From-Scratch.git
+   cd Transformer-LLM-Text-Summarization
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+1. Preprocess the dataset:
+   - Tokenize and batch the input text.
+   - Apply padding and positional encodings.
+
+2. Train the model:
+   ```bash
+   python train.py
+   ```
+
+3. Evaluate the model:
+   ```bash
+   python evaluate.py
+   ```
+
+4. Generate summaries:
+   ```bash
+   python generate_summary.py --input "Your input text here"
+   ```
+
+## Evaluation Metrics
+- **Loss (Training & Validation):** Tracks model convergence.
+- **ROUGE Scores:** Measures the overlap between generated and reference summaries.
+- **Manual Evaluation:** Assesses relevance, coherence, and conciseness of summaries.
+
+## Sample Results
+- **Input Text:** Sample input from the dataset.
+- **Generated Summary:** Output from the custom Transformer model.
+- **Comparison:** ROUGE scores and qualitative analysis.
+
+## Challenges and Insights
+- Discussion of challenges faced during model design, training, and optimization.
+- Insights into potential areas for improvement.
+
+## Contribution
+Contributions are welcome! Please fork the repository and submit a pull request with improvements or fixes.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
