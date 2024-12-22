@@ -16,3 +16,9 @@ Develop a custom Transformer-based architecture to generate extractive and abstr
 ## Dataset
 Utilizes a public text summarization dataset available on Kaggle: [Text Summarization Dataset](https://www.kaggle.com/code/lusfernandotorres/text-summarization-with-large-language-models/input)
 
+## Getting Started
+### Prerequisites
+- Python 3.x
+- TensorFlow or PyTorch
+- Required libraries: `numpy`, `pandas`, `sklearn`, etc.
+
