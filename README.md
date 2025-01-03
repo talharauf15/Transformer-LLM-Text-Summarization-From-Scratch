@@ -14,7 +14,7 @@ Develop a custom Transformer-based architecture to generate extractive and abstr
 - **Performance Metrics:** Evaluates generated summaries using ROUGE scores and manual quality checks.
 
 ## Dataset
-Utilizes a public text summarization dataset available on Kaggle: [Text Summarization Dataset](https://www.kaggle.com/code/lusfernandotorres/text-summarization-with-large-language-models/input)
+Utilizes a public text summarization dataset available on Kaggle: [Text Summarization Dataset](https://www.kaggle.com/datasets/nileshmalode1/samsum-dataset-text-summarization)
 
 ## Getting Started
 ### Prerequisites
